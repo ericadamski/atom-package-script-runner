@@ -1,4 +1,5 @@
 # package-script-runner package
+[![Code Climate](https://codeclimate.com/github/ericadamski/atom-package-script-runner/badges/gpa.svg)](https://codeclimate.com/github/ericadamski/atom-package-script-runner)
 
 A short description of your package.
 
