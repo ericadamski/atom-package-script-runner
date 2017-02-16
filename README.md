@@ -1,6 +1,6 @@
 # package-script-runner package
-[![Code Climate](https://codeclimate.com/github/ericadamski/atom-package-script-runner/badges/gpa.svg)](https://codeclimate.com/github/ericadamski/atom-package-script-runner)
+[![Code Climate](https://codeclimate.com/github/ericadamski/atom-package-script-runner/badges/gpa.svg)](https://codeclimate.com/github/ericadamski/atom-package-script-runner)[![CircleCI](https://circleci.com/gh/ericadamski/atom-package-script-runner.png?style=shield)](https://circleci.com/gh/ericadamski/atom-package-script-runner)[![Test Coverage](https://codeclimate.com/github/ericadamski/atom-package-script-runner/badges/coverage.svg)](https://codeclimate.com/github/ericadamski/atom-package-script-runner/coverage)
 
-A short description of your package.
+Provides a graphic UI for running `package.json` scripts from the Atom text editor.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![A quick gif of the operation](https://github.com/ericadamski/atom-package-script-runner/blob/master/assets/atom-package-script-runner.gif)
