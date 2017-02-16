@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle package-script-runner",
+        "command": "package-script-runner:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Package.json Scripts",
+          "submenu": [
+            {
+              "label": "Show",
+              "command": "package-script-runner:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

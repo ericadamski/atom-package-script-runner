@@ -1,0 +1,25 @@
+{
+  "name": "package-script-runner",
+  "main": "./lib/package-script-runner",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+    "npm",
+    "yarn",
+    "package.json",
+    "script runner",
+    "package.json scripts"
+  ],
+  "activationCommands": {
+    "atom-workspace": "package-script-runner:toggle"
+  },
+  "repository": "https://github.com/atom/package-script-runner",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "immutable": "^3.8.1"
+  }
+}
