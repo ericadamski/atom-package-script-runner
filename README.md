@@ -3,4 +3,4 @@
 
 Provides a graphic UI for running `package.json` scripts from the Atom text editor.
 
-![A quick gif of the operation](https://github.com/ericadamski/atom-package-script-runner/blob/master/assets/atom-package-script-runner.gif)
+![A quick gif of the operation](https://github.com/ericadamski/atom-package-script-runner/blob/3f9e4b1c29ed74df33e6cbad17f5431a6e862397/assets/atom-package-script-runner.gif?raw=true)
