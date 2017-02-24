@@ -5,13 +5,64 @@
 @import "ui-variables";
 
 .package-script-runner {
-  height: 75px;
+  min-height: 75px;
+  width: 100%;
   background: @app-background-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .terminal {
+    display: flex;
+    align-items: top;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 10px;
+
+    .button-group {
+      display: flex;
+      flex-direction: column;
+
+      .terminal-output-toggle,
+      .terminal-output-bottom {
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        margin: 2.5px 0;
+        border-color: @text-color-highlight;
+        background: @text-color-highlight;
+        color: @app-background-color;
+        transition: all 0.2s ease;
+      }
+    }
+
+    .terminal-output {
+      visibility: visible;
+      white-space: pre-line;
+      height: 125px;
+      margin: 0 4%;
+      padding: 1%;
+      width: 90%;
+      overflow: hidden;
+      overflow-y: scroll;
+      background: tint(@app-background-color, 10%);
+      transition-delay: 0.01s;
+      transition: all 0.2s ease;
+      user-select: text;
+
+      &.hidden {
+        display: none;
+        visibility: hidden;
+      }
+    }
+  }
 
   .task-list {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 
     .task-button {
       &.running {
