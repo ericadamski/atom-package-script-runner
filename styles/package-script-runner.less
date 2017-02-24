@@ -20,30 +20,13 @@
     width: 100%;
     margin: 10px;
 
-    .button-group {
-      display: flex;
-      flex-direction: column;
-
-      .terminal-output-toggle,
-      .terminal-output-bottom {
-        width: 30px;
-        height: 30px;
-        padding: 0;
-        margin: 2.5px 0;
-        border-color: @text-color-highlight;
-        background: @text-color-highlight;
-        color: @app-background-color;
-        transition: all 0.2s ease;
-      }
-    }
-
     .terminal-output {
       visibility: visible;
       white-space: pre-line;
       height: 125px;
-      margin: 0 4%;
+      margin: 0 1%;
       padding: 1%;
-      width: 90%;
+      width: 100%;
       overflow: hidden;
       overflow-y: scroll;
       background: tint(@app-background-color, 10%);
@@ -59,10 +42,32 @@
   }
 
   .task-list {
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
+    padding: 5px;
+
+    .button-group {
+      height: inherit;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .terminal-output-toggle,
+      .terminal-output-bottom {
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        margin: 2.5px 0;
+        border-color: @text-color-highlight;
+        background: @text-color-highlight;
+        color: @app-background-color;
+        transition: all 0.2s ease;
+      }
+    }
 
     .task-button {
       &.running {
