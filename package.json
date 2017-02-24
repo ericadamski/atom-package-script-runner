@@ -1,7 +1,7 @@
 {
   "name": "package-script-runner",
   "main": "./lib/package-script-runner",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Provides a graphic UI for running package.json scripts from the Atom text editor.",
   "scripts": {
     "test": "jest --coverage"
